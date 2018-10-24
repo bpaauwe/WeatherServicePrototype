@@ -1,0 +1,22 @@
+{
+    "name": "WeatherServicePrototype",
+    "docs": "http;//www.bobsplace.com/",
+    "type": "python3",
+    "executable": "weatherproto.py",
+    "install": "install.sh",
+    "description": "Add weather data to the ISY994",
+    "notice": "For testing purposes only",
+    "shortPoll": "5",
+    "longPoll": "60",
+    "profile_version": "0.0.1",
+    "credits": [
+    	{
+    		"title": "WeatherService: A node server for weather data",
+    		"author": "Bob Paauwe",
+    		"version": "0.0.1",
+    		"date": "October 24, 2018",
+    		"source": "https://github.com/bpaauwe/WeatherServicePrototype",
+            "license": "https://github.com/bpaauwe/WeatherServicePrototype/LICENSE"
+		}
+	]
+}
