@@ -1,0 +1,20 @@
+<editors>
+	<editor id="bool">
+		<range uom="2" subset="0,1" />
+	</editor>
+	<editor id="int">
+		<range uom="25" min="0" max="150" step="1" prec="1" />
+	</editor>
+	<editor id="TEMP_F">
+		<range uom="17" min="-50" max="150" step="1" prec="1" />
+	</editor>
+	<editor id="PRECENT">
+		<range uom="22" min="0" max="100" prec="0" />
+	</editor>
+	<editor id="PRESSURE">
+		<range uom="23" min="0" max="100" prec="3" />
+	</editor>
+	<editor id="LUMIN">
+		<range uom="36" min="0" max="200000" prec="0" />
+	</editor>
+</editors>

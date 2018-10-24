@@ -1,0 +1,35 @@
+<nodeDefs>
+	<!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+
+	<!-- controller -->
+	<nodeDef id="Weather" nodeType="139" nls="ctl">
+		<editors />
+		<sts>
+			<st id="ST" editor="bool" />
+			<st id="CLITEMP" editor="TEMP_F" />
+			<st id="CLITEMP" editor="TEMP_F" />
+			<st id="CLITEMP" editor="TEMP_F" />
+			<st id="CLITEMP" editor="TEMP_F" />
+			<st id="CLITEMP" editor="TEMP_F" />
+			<st id="CLIHUM" editor="PRECENT" />
+			<st id="GV0" editor="int" />
+			<st id="BARPRES" editor="PRESSURE" />
+			<st id="GV0" editor="int" />
+			<st id="DEWPT" editor="TEMP_F" />
+			<st id="LUMIN" editor="LUMIN" />
+			<!--
+			<st id="RAINRT" />
+			<st id="SOILT" />
+			<st id="SOLRAD" />
+			<st id="WINDDIR" />
+-->
+		</sts>
+		<cmds>
+			<accepts>
+				<cmd id="DISCOVER" />
+				<cmd id="REMOVE_NOTICES_ALL" />
+				<cmd id="UPDATE_PROFILE" />
+			</accepts>
+		</cmds>
+	</nodeDef>
+</nodeDefs>
