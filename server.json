@@ -4,7 +4,7 @@
     "type": "python3",
     "executable": "wsp.py",
     "install": "install.sh",
-    "install_cloud": "install_cloud.sh"
+    "install_cloud": "install_cloud.sh",
     "description": "Add weather data to the ISY994",
     "notice": "For testing purposes only",
     "shortPoll": "5",
