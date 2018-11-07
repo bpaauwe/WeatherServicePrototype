@@ -1,35 +1,39 @@
 <nodeDefs>
-	<!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
 
-	<!-- controller -->
-	<nodeDef id="Weather" nodeType="139" nls="ctl">
-		<editors />
-		<sts>
-			<st id="ST" editor="bool" />
-			<st id="CLITEMP" editor="TEMP_F" />
-			<st id="CLITEMP" editor="TEMP_F" />
-			<st id="CLITEMP" editor="TEMP_F" />
-			<st id="CLITEMP" editor="TEMP_F" />
-			<st id="CLITEMP" editor="TEMP_F" />
-			<st id="CLIHUM" editor="PRECENT" />
-			<st id="GV0" editor="int" />
-			<st id="BARPRES" editor="PRESSURE" />
-			<st id="GV0" editor="int" />
-			<st id="DEWPT" editor="TEMP_F" />
-			<st id="LUMIN" editor="LUMIN" />
-			<!--
-			<st id="RAINRT" />
-			<st id="SOILT" />
-			<st id="SOLRAD" />
-			<st id="WINDDIR" />
--->
-		</sts>
-		<cmds>
-			<accepts>
-				<cmd id="DISCOVER" />
-				<cmd id="REMOVE_NOTICES_ALL" />
-				<cmd id="UPDATE_PROFILE" />
-			</accepts>
-		</cmds>
-	</nodeDef>
+    <!-- controller -->
+    <nodeDef id="weather" nodeType="139" nls="ctl">
+        <editors />
+        <sts>
+            <st id="ST" editor="bool" />
+            <st id="CLITEMP" editor="TEMP_F" />
+            <st id="GV0" editor="TEMP_F" />
+            <st id="GV1" editor="TEMP_F" />
+            <st id="GV2" editor="TEMP_F" />
+            <st id="GV3" editor="TEMP_F" />
+            <st id="CLIHUM" editor="PRECENT" />
+            <st id="BARPRES" editor="PRESSURE" />
+            <st id="DEWPT" editor="TEMP_F" />
+            <st id="GV4" editor="MPH" />
+            <st id="WINDDIR" editor="DEGREES" />
+            <st id="GV5" editor="MPH" />
+            <st id="GV6" editor="INCHES" />
+            <st id="LUMIN" editor="LUMIN" />
+            <st id="GV7" editor="int" />
+            <st id="GV8" editor="int" />
+            <st id="GV9" editor="int" />
+            <st id="GV10" editor="int" />
+            <st id="GV11" editor="COVERAGE" />
+            <st id="GV22" editor="INTENSITY" />
+            <st id="GV23" editor="CONDITIONS" />
+            <st id="GV24" editor="CONDITIONS" />
+        </sts>
+        <cmds>
+            <accepts>
+                <cmd id="DISCOVER" />
+                <cmd id="REMOVE_NOTICES_ALL" />
+                <cmd id="UPDATE_PROFILE" />
+            </accepts>
+        </cmds>
+    </nodeDef>
 </nodeDefs>
